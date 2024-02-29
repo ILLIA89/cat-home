@@ -1,8 +1,17 @@
 @import "./styleguide.css";
 
+/* !Header */
+
 .header {
   background-color: var(--common-white);
   padding: 16px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  column-gap: 8px;
+  align-items: center;
 }
 
 .logo {
@@ -19,6 +28,8 @@
   line-height: 40px;
   letter-spacing: 0.5px;
 }
+
+/* !Header-end */
 
 .main {
   background-color: var(--common-white);
