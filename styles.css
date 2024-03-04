@@ -91,8 +91,28 @@
 
 /* !Posts-end */
 
+/* !Blog-start */
+
+.blog {
+  display: grid;
+  gap: 48px;
+}
+
 .blog-link {
+  display: grid;
+  gap: 20px;
   color: var(--common-black);
+}
+
+@media (min-width: 768px) {
+  .blog {
+    gap: 36px;
+  }
+
+  .blog-link {
+    gap: 24px;
+    grid-template-columns: 264px 1fr;
+  }
 }
 
 .blog-title {
